@@ -1,0 +1,61 @@
+.profesor-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.profesor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.profesor-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.profesor-summary h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.profesor-summary p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.card-details {
+  margin-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+}
+
+.card-details h5 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-details li {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}

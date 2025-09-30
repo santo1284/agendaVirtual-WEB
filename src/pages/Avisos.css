@@ -1,0 +1,44 @@
+.avisos-page {
+  padding: 20px;
+}
+
+.avisos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avisos-header h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+.create-aviso-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-aviso-btn:hover {
+  background-color: #218838;
+}
+
+.avisos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.avisos-grid p {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  grid-column: 1 / -1; /* Ocupa todo el ancho de la grilla */
+  padding: 40px 0;
+}

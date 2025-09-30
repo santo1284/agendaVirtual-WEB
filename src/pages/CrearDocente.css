@@ -1,0 +1,67 @@
+.crear-docente-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.crear-docente-page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.crear-docente-form .form-group {
+  margin-bottom: 20px;
+}
+
+.crear-docente-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.crear-docente-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #5a6268;
+}
+
+.btn-accept {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-accept:hover {
+  background-color: #218838;
+}
