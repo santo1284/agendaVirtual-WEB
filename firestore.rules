@@ -1,0 +1,25 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permitir acceso a la colección 'profesores'
+    match /profesores/{profesorId} {
+      allow read, write: if true;
+    }
+
+    // Permitir acceso a la colección 'correos'
+    match /correos/{correoId} {
+      allow read, write: if true;
+    }
+
+    // Permitir acceso a la colección 'avisos'
+    match /avisos/{avisoId} {
+      allow read, write: if true;
+    }
+
+    // Mantener el resto de la base de datos bloqueada por defecto.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
